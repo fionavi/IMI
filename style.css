@@ -1,0 +1,14 @@
+#left {
+
+    float: left;
+    background-color: red;
+    width: 50%;
+    height: 1000px;
+}
+
+#right {
+    float: right;
+    background-color: greenyellow;
+    width: 50%;
+    height: 1000px;
+}
