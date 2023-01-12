@@ -5,10 +5,40 @@ let rightDiv = document.getElementById("right");
 let i = 0;
 let choices = ["start"];
 function handleLoad(_event) {
-    document.getElementById("left").addEventListener("click", leftInfo);
-    document.getElementById("right").addEventListener("click", rightInfo);
+    // document.getElementById("left").addEventListener("click", leftInfo);
+    // document.getElementById("right").addEventListener("click", rightInfo);
+    document.addEventListener("keydown", keyWasPressed);
 }
-function leftInfo(_event) {
+function keyWasPressed(_event) {
+    if (_event.altKey) {
+        console.log("The ALT key was pressed!");
+    }
+    else {
+        console.log("The ALT key was NOT pressed!");
+    }
+    if (_event.shiftKey) {
+        console.log("The shift key was pressed!");
+    }
+    else {
+        console.log("The shift key was NOT pressed!");
+    }
+    // Gibt einfach die gedrückte Taste zurück
+    if (_event.key) {
+        console.log(_event.key);
+        if (_event.key == "a") {
+            console.log("The A key was pressed!");
+            leftChoice(_event);
+        }
+        if (_event.key == "ä") {
+            console.log("The Ä key was pressed!");
+            leftChoice(_event);
+        }
+        else {
+            console.log("No key was pressed!");
+        }
+    }
+}
+function leftChoice(_event) {
     // let target: EventTarget = _event.target;
     i++;
     choices.push("a");
@@ -19,7 +49,7 @@ function leftInfo(_event) {
     //console.log("object: " + _event);
     playNextVideo();
 }
-function rightInfo(_event) {
+function rightChoice(_event) {
     //let target: EventTarget = _event.target;
     i++;
     choices.push("b");
