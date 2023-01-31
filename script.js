@@ -10,18 +10,17 @@ function handleLoad(_event) {
     document.addEventListener("keydown", keyWasPressed);
 }
 function keyWasPressed(_event) {
-    if (_event.altKey) {
-        console.log("The ALT key was pressed!");
-    }
-    else {
-        console.log("The ALT key was NOT pressed!");
-    }
-    if (_event.shiftKey) {
-        console.log("The shift key was pressed!");
-    }
-    else {
-        console.log("The shift key was NOT pressed!");
-    }
+    /*  if (_event.altKey) {
+         console.log("The ALT key was pressed!");
+     } else {
+         console.log("The ALT key was NOT pressed!");
+     }
+ 
+     if (_event.shiftKey) {
+         console.log("The shift key was pressed!");
+     } else {
+         console.log("The shift key was NOT pressed!");
+     } */
     // Gibt einfach die gedrückte Taste zurück
     if (_event.key) {
         console.log(_event.key);
