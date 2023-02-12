@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
 }
 
@@ -25,20 +25,25 @@ h1 {
 
 #button1 {
     margin-left: 25%;
-    background-image:url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/button.png");
-	background-repeat:no-repeat;
+    background-image: url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/button.png");
+    background-repeat: no-repeat;
     background-size: contain;
-	background-position: 0px, 0px;
-	width:150px;
+    background-position: 0px, 0px;
+    width: 150px;
     height: 150px;
 }
 
 #button2 {
     margin-left: 25%;
-    background-image:url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/button.png");
-	background-repeat:no-repeat;
+    background-image: url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/button.png");
+    background-repeat: no-repeat;
     background-size: contain;
-	background-position: 0px, 0px;
-	width:150px;
+    background-position: 0px, 0px;
+    width: 150px;
     height: 149px;
+}
+
+button:hover {
+    opacity: 50%;
+
 }
