@@ -17,11 +17,28 @@ h1 {
     padding-right: 20%;
 }
 
+/* #buttonBox{
+    width: 400px;
+    align-self: center;
+    
+} */
+
 #button1 {
-    background-image:url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/kugel.png");
+    margin-left: 25%;
+    background-image:url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/button.png");
 	background-repeat:no-repeat;
-	font-size:12px;
-	background-position: -10px -10px;
-	width:1000px;
-    height: 1000px;
+    background-size: contain;
+	background-position: 0px, 0px;
+	width:150px;
+    height: 150px;
+}
+
+#button2 {
+    margin-left: 25%;
+    background-image:url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/button.png");
+	background-repeat:no-repeat;
+    background-size: contain;
+	background-position: 0px, 0px;
+	width:150px;
+    height: 149px;
 }
