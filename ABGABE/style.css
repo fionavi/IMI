@@ -18,5 +18,10 @@ h1 {
 }
 
 #button1 {
-    
+    background-image:url("https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/kugel.png");
+	background-repeat:no-repeat;
+	font-size:12px;
+	background-position: -10px -10px;
+	width:1000px;
+    height: 1000px;
 }
