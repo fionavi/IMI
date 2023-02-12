@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1 {
+    font-family: Griffon;
+    align-self: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(111, 197, 195);
+}
+
+#film {
+    width: max-content;
+    align-self: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#button1 {
+    
+}

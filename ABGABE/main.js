@@ -24,7 +24,7 @@ var WeltDerTraeume;
         if (choices[1] == "b" && choices[2] == "a" && i == 2) {
             console.log("play next Video: choice 2C");
             console.log("index: " + i);
-            video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/Flucht.mp4");
+            video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/FluchtLichterwald.mp4");
         }
         if (choices[1] == "b" && choices[2] == "a" && choices[3] == "a" && i == 3) {
             console.log("play next Video: choice 3E");
