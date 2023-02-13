@@ -45,5 +45,12 @@ h1 {
 
 button:hover {
     opacity: 50%;
+}
 
+#reset {
+    margin-left: 46%;
+}
+
+#reset:hover {
+    opacity: 50%;
 }
