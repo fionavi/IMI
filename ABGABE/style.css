@@ -49,6 +49,7 @@ button:hover {
 
 #reset {
     margin-left: 46%;
+    align-self: center;
 }
 
 #reset:hover {
