@@ -29,12 +29,13 @@ namespace WeltDerTraeume {
         console.log("left was pressed");
         let video: HTMLVideoElement = document.querySelector("#video");
         let film: HTMLVideoElement = document.querySelector("#film");
+        let list: HTMLVideoElement = document.querySelector("#buttonBox");
 
         i++;
         choices.push("a");
 
         if (choices[1] == "a" && i == 1) {
-              video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/Schrank.mp4");
+            video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/Schrank.mp4");
         }
 
         if (choices[1] == "b" && choices[2] == "a" && i == 2) {
@@ -43,10 +44,14 @@ namespace WeltDerTraeume {
 
         if (choices[1] == "b" && choices[2] == "a" && choices[3] == "a" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/SireneMelodie.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
         }
 
         if (choices[1] == "b" && choices[2] == "b" && choices[3] == "a" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/Zauber.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
         }
 
         if (choices[1] == "a" && choices[2] == "a" && i == 2) {
@@ -55,10 +60,16 @@ namespace WeltDerTraeume {
 
         if (choices[1] == "a" && choices[2] == "a" && choices[3] == "a" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/BlickZurueck.mp4");
+
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
         }
 
         if (choices[1] == "a" && choices[2] == "b" && choices[3] == "a" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/HeimlicheRettung.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
+            
         }
 
         film.load();
@@ -69,6 +80,8 @@ namespace WeltDerTraeume {
 
         let video: HTMLVideoElement = document.querySelector("#video");
         let film: HTMLVideoElement = document.querySelector("#film");
+        let list: HTMLVideoElement = document.querySelector("#buttonBox");
+
         i++;
         choices.push("b");
 
@@ -82,10 +95,15 @@ namespace WeltDerTraeume {
 
         if (choices[1] == "b" && choices[2] == "a" && choices[3] == "b" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/HilferufFee.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
+            
         }
 
         if (choices[1] == "b" && choices[2] == "b" && choices[3] == "b" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/neueWelt.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
         }
 
         if (choices[1] == "a" && choices[2] == "b" && i == 2) {
@@ -94,10 +112,14 @@ namespace WeltDerTraeume {
 
         if (choices[1] == "a" && choices[2] == "a" && choices[3] == "b" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/Wegrennen.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
         }
 
         if (choices[1] == "a" && choices[2] == "b" && choices[3] == "b" && i == 3) {
             video.setAttribute("src", "https://raw.githubusercontent.com/fionavi/IMI/master/ABGABE/media/Angriff.mp4");
+            list.removeChild(list.children[1]);
+            list.removeChild(list.children[0]);
         }
 
         film.load();
